@@ -1,16 +1,39 @@
 body {
     font-family: verdana;
 }
+div {
+    position: relative;
+}
 
 button {
     width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    background-color: #4CD06C;
+}
+
+button hr {
+    width: 50%;
+    border: 2px solid #fff;
+    background-color: #fff;
+}
+
+h3 {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    color: #4CD06C;
+    margin-left: 20px;
+    top: 50%;
+    transform: translateY(-140%);
 }
 
 nav {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
 }
 
 ul {
